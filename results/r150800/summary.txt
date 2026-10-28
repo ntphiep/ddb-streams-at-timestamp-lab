@@ -1,0 +1,14 @@
+items written:                  4800
+processed before the crash:     1854 (last i=1857, its ApproximateCreationDateTime 15:09:33.000)
+consumer died at:               15:09:33.586
+acked before crash, never read: 5
+restart at:                     15:10:33.835
+
+restart from                                     read  twice   lost
+checkpoint per shard (AFTER_SEQUENCE_NUMBER)     2946      0      0
+TRIM_HORIZON                                     4800   1854      0
+LATEST                                           1650      0   1296
+AT_TIMESTAMP time of crash                       2938      0      8
+AT_TIMESTAMP newest record in sink               2950      6      2
+AT_TIMESTAMP newest record per shard             2959     13      0
+AT_TIMESTAMP time of crash minus 5 s             3038     92      0

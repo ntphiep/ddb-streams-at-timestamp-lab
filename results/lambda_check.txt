@@ -1,0 +1,2 @@
+AT_TIMESTAMP: InvalidParameterValueException: Unsupported starting position for arn type: arn:aws:dynamodb:us-east-1:123456789012:table/ddb-at-timestamp-lab/stream/2026-10-28T14:54:54.108
+TRIM_HORIZON: accepted (mapping c999c238-8216-437c-a9ea-09d6fc891c85, created disabled)
